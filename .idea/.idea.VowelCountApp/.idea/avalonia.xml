@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="VowelCountApp/App.axaml" value="VowelCountApp/VowelCountApp.csproj" />
+        <entry key="VowelCountApp/Views/MainWindow.axaml" value="VowelCountApp/VowelCountApp.csproj" />
+      </map>
+    </option>
+  </component>
+</project>
