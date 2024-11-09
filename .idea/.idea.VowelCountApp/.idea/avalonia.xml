@@ -4,7 +4,7 @@
     <option name="projectPerEditor">
       <map>
         <entry key="VowelCountApp/App.axaml" value="VowelCountApp/VowelCountApp.csproj" />
-        <entry key="VowelCountApp/Views/MainWindow.axaml" value="VowelCountApp/VowelCountApp.csproj" />
+        <entry key="VowelCountApp/MainWindow.axaml" value="VowelCountApp/VowelCountApp.csproj" />
       </map>
     </option>
   </component>

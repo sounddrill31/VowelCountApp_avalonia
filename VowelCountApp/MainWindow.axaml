@@ -1,0 +1,32 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="VowelCountApp.MainWindow"
+        Title="VowelCountApp"
+        
+        TransparencyLevelHint="AcrylicBlur"
+        Background="Transparent"
+        ExtendClientAreaToDecorationsHint="True"> <!-- blur -->
+    <Panel>
+        <ExperimentalAcrylicBorder IsHitTestVisible="False">
+            <ExperimentalAcrylicBorder.Material>
+                <ExperimentalAcrylicMaterial
+                    BackgroundSource="Digger"
+                    TintColor="Black"
+                    TintOpacity="1"
+                    MaterialOpacity="0.65" />
+            </ExperimentalAcrylicBorder.Material>
+        </ExperimentalAcrylicBorder>
+
+        <StackPanel Margin="20">
+            <TextBlock HorizontalAlignment="Left" Margin="0 5" FontSize="18" FontWeight="Bold">Enter String</TextBlock>
+            <TextBox Name="TextBoxString"  Watermark="Enter your string" Margin="0 5" AcceptsReturn="True" />
+            <Button Content="Count" 
+                    HorizontalAlignment="Left" VerticalAlignment="Center" Margin="0 5" Click="Button_OnClick" />
+            <TextBlock HorizontalAlignment="Left" Margin="0 5" FontSize="18" FontWeight="Thin" IsVisible="False" >Number of Vowels:</TextBlock>
+            <TextBox Name="TextBoxRes"  Margin="0 5 " />
+        </StackPanel>
+    </Panel>
+</Window>
